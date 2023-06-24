@@ -100,9 +100,6 @@ Content-type: application/json
   }
 }
 ```
-
-<!-- markdownlint-disable MD024 -->
-
 #### Response
 
 The following is an example of the response.
@@ -114,8 +111,6 @@ The following is an example of the response.
 
 ```http
 HTTP/1.1 200 OK
-```
-<!-->
 Content-Type: application/json
 
 {
@@ -159,7 +154,6 @@ Content-Type: application/json
   }
 }
 ```
--->
 
 ### Example 2: Deep insert
 
