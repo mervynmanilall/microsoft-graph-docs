@@ -50,7 +50,7 @@ POST /users/{userId}/onlineMeetings
 If the request contains an `Accept-Language` HTTP header, the `content` of `joinInformation` will be in the language and locale variant specified in the `Accept-Language` header. The default content will be in English.
 
 
-To get the `token` for the `Authorization`, follow [Get access on behalf of a user](/graph/auth-v2-user?tabs=http#3-request-an-access-token).
+For details about how to get the `token` for the `Authorization`, see [Get access on behalf of a user](/graph/auth-v2-user?tabs=http#3-request-an-access-token).
 
 ## Request body
 In the request body, supply a JSON representation of an [onlineMeeting](../resources/onlinemeeting.md) object.
